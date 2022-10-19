@@ -123,22 +123,7 @@ body {
 .contact-tel:hover {
   color: var(--color-blue);
 }
-.main-button {
-  width: 200px;
-  height: 50px;
-  color: var(--color-white);
-  background-color: var(--color-blue);
-  font-weight: 700px;
-  padding: 10px 41px;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  font-weight: 700;
-  cursor: pointer;
-  display: block;
-  text-align: center;
-  margin: 30px auto auto;
-}
+
 .button {
   cursor: pointer;
   font-style: normal;
@@ -169,17 +154,42 @@ body {
   font-weight: 900;
   font-size: 60px;
   line-height: 1.36;
+  margin: 0 auto;
+}
+.main-button {
+  border: none;
+  cursor: pointer;
+  display: block;
+  background-color: var(--color-blue);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  border-radius: 4px;
+  padding: 0px;
+  margin-bottom: 193px;
+  margin: auto;
+  margin-bottom: 200px;
+  height: 50px;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-white);
 }
 .h1-hero {
-  color: var(--color-white);
+  display: block;
   font-weight: 900;
   font-size: 44px;
-  display: flex;
-  justify-content: center;
-  line-height: 1.36;
-  padding-top: 200px;
+  line-height: 1.33;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-align: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: var(--color-white);
+  width: 696px;
 }
 .avantages-list {
   list-style: none;
@@ -216,11 +226,13 @@ body {
   background-color: var(--color-button);
   width: 1600px;
   height: 708px;
+  margin: 0 auto;
 }
 .footer-background {
   background-color: var(--color-grafit);
   width: 1600px;
   height: 252px;
+  margin: 0 auto;
 }
 .adress {
   color: var(--color-white);
@@ -304,27 +316,30 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+}
+.pictures {
+  display: block;
 }
 .portfolio-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 94px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0px;
+  padding-bottom: 94px;
   gap: 30px;
 }
 
 .portfolio-list-items {
-  border-color: var(--border-color);
-  border-width: 1px;
-  border-style: solid;
-  box-sizing: border-box;
-  margin: 15px;
-  width: 370px;
-  height: 404px;
   flex-basis: calc((100% - 60px) / 3);
+  background: var(--color-white);
+  width: 370px;
+}
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-background .container {
   padding: 60px 15px 0 15px;
@@ -337,4 +352,12 @@ body {
 }
 .footer-tel:hover {
   color: var(--color-blue);
+}
+.section {
+  padding: 94px;
+}
+.container-box {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eeeeee;
 }
